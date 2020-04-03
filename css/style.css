@@ -1,0 +1,75 @@
+.body{
+    background-color: #213b52;
+    font-family: 'Roboto', sans-serif;
+}
+/*  Margen del fondo del container  */
+.container{
+    margin-bottom: 2%;
+  }
+
+  /*  NAVBAR */
+
+@media (min-width: 200x){
+    .head{
+            margin-bottom: 3%;
+    }
+  
+    .carousel-inner{
+        margin-top: 4%;
+        margin-bottom: 5%;
+    }
+  }
+  
+  @media (min-width: 200px){
+      .head{
+              margin-bottom: 3%;
+      }
+  
+      .carousel-inner{
+          margin-top: 4%;
+          margin-bottom: 5%;
+      }
+  }
+  
+  .form-inline{
+    margin-left: 74%;
+  }
+  
+  .dropdown-menu a{
+    text-align: center;
+  }
+  
+  .nav-link{
+    font-size: 18px;
+  }
+  
+  /* Imagen en la sección de noticias, fechas, torneos*/
+  .img-fluida { 
+    width: 50%;
+  }
+  
+  @media (min-width: 1020px){
+    .navbar{
+      height: 70px;
+    }
+    .navbar-nav.navbar-center {
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+    }
+    
+  .dropdown-menu a{
+    text-align: left;
+  }
+  
+  .img-fluida { 
+    width: 40%;
+    margin-left: 25%;
+  }
+  }
+  
+  /*  centrando el texto de las opciones como paginaciones*/
+  .tab-content  .tab-pane p{
+    text-align: justify;
+  }
+  
