@@ -460,10 +460,6 @@
   }
   
   /*  SEGMENTO DE EDITORES  */
-  
-/*--------------------------------------------------------------
-# Editores Section
---------------------------------------------------------------*/
 #Editors {
     padding: 60px 0 30px 0;
   }
@@ -609,3 +605,22 @@
     margin-bottom: 0;
   }
   
+  /* FOOTER  */
+.footer-copyright{
+    background-color: #263238;
+  }
+ 
+  .col-md-12{
+    background-color: #4f5b62;
+  }
+  
+  .page-footer{
+    background-color: #4f5b62;
+  }
+  
+  .footer-copyright{
+    color: white;
+  }
+  .fab{
+    color: white;
+  }
