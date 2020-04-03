@@ -156,3 +156,29 @@
   
   }
   
+
+  /*  SEGMENTO DE LOGOS  */
+.logos {
+    padding: 0;
+  }
+  
+  .logos .logo-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 120px;
+  }
+  
+  .logos .logo-logo img {
+    height: 65px;
+  }
+  
+  .logos .logo-logo:hover img {
+    transform: scale(1.2);
+  }
+  
+  .logos img {
+    transition: all 0.4s ease-in-out;
+  }
+  
