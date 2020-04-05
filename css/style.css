@@ -9,10 +9,23 @@
 
   /*  NAVBAR */
 
+  @media (max-width:500px){
+    .navbar-brand{
+      margin-left: 25%;
+    }
+  
+  }
+
+
+
 @media (min-width: 200x){
     .head{
             margin-bottom: 3%;
     }
+
+ 
+  
+    
   
     .carousel-inner{
         margin-top: 4%;
