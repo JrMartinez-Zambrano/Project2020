@@ -837,6 +837,10 @@
   text-align: center;
 }
 
+.div-content-relacionados{
+  overflow-y: scroll;
+}
+
 .title-Relacionado{
   color: #fff;
   font-size: 1.2em;
@@ -855,11 +859,14 @@
   margin-bottom: 1em;
 }
 
-.div-Multimedia{
- 
-  padding-left: 0%;
-  padding-right: 0%;
+.div-title-Multimedia{
+  color: #fff;
+  margin-top: 3em;
+  border-radius: 0.2em;
 }
+
+
+
 
 
   /* -------------------------SEGMENTO DE ESTILOS DE CADA INTEGRANTE----------------------------------*/
