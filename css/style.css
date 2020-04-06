@@ -823,7 +823,8 @@
 }
 
 .div-title-Juego{
-  font-size: 1em;
+  font-size: 1.3em;
+  margin-bottom: 0.8em;
 }
 
 .div-list-Juegos li{
@@ -840,6 +841,14 @@
   color: #fff;
   font-size: 1.2em;
   padding: 0.4em;
+}
+
+.Content-JuegoRecomendado h2{
+  font-size: 1em;
+}
+
+.Content-JuegoRecomendado h3, p {
+  font-size: 0.8em;
 }
 
   /* -------------------------SEGMENTO DE ESTILOS DE CADA INTEGRANTE----------------------------------*/
