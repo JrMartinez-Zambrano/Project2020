@@ -811,6 +811,37 @@
   }
 
 
+  /* -------------------------ARTICULO ESTILO DE JUEGOS----------------------------------*/
+.title-SobreJuego{
+  color: #fff;
+  font-size: 1.2em;
+  padding: 0.2em;
+}
+
+.div-title-SobreJuego{
+  border-radius: 0.2em;
+}
+
+.div-title-Juego{
+  font-size: 1em;
+}
+
+.div-list-Juegos li{
+  margin-left: 1.5em;
+  margin-top: 0.5em;
+}
+
+.div-title-Relacionado{
+  border-radius: 0.2em;
+  text-align: center;
+}
+
+.title-Relacionado{
+  color: #fff;
+  font-size: 1.2em;
+  padding: 0.4em;
+}
+
   /* -------------------------SEGMENTO DE ESTILOS DE CADA INTEGRANTE----------------------------------*/
 
 
