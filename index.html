@@ -41,31 +41,40 @@
                 Eventos
               </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
-                    <a class="dropdown-item" href="#">EAsports</a>
-                    <a class="dropdown-item" href="#">Estrenos</a>
+                    <a class="dropdown-item" href="#lastes-post-Esports">Esports</a>
+                    <a class="dropdown-item" href="#lastes-post-novedades">Estrenos</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Próximos</a>
                 </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#lastes-post-novedades">Novedades</a>
-            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Enterate
+              </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Película</a>
+                  <a class="dropdown-item" href="#cards" >Avances</a>
+                  <a class="dropdown-item" href="#latest-posts">Lo último</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#carouselExampleControls">Trending</a>
+                </div>
+              </li>
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Plataformas
             </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="https://store.steampowered.com/?l=spanish">Steam</a>
-                <a class="dropdown-item" href="https://www.epicgames.com/store/es-ES/">Epic Games Store</a>
-                <a class="dropdown-item" href="https://www.origin.com/mex/en-us/store">Origin</a>
-                <a class="dropdown-item" href="https://uplay.ubisoft.com/">Uplay</a>
-                <a class="dropdown-item" href="https://www.gog.com/">GOG</a>
+                <a class="dropdown-item" href="https://store.steampowered.com/?l=spanish"  target=”_blank” >Steam</a>
+                <a class="dropdown-item" href="https://www.epicgames.com/store/es-ES/"  target=”_blank”>Epic Games Store</a>
+                <a class="dropdown-item" href="https://www.origin.com/mex/en-us/store"  target=”_blank”>Origin</a>
+                <a class="dropdown-item" href="https://uplay.ubisoft.com/"  target=”_blank”>Uplay</a>
+                <a class="dropdown-item" href="https://www.gog.com/"  target=”_blank”>GOG</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Lanzamientos</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tienda</a>
+              <a class="nav-link" href="#Editors">Equipo</a>
             </li>
         </ul>
         </div>
@@ -445,7 +454,7 @@
 </div>
 
 <!--  SECCIÓN DE  CARD -->
-<div class="container ">
+<div class="container "  id = "cards">
     <div class="card-deck">
         <div class="card">
           <img class="card-img-top" src="images/godofwar.png" alt="Card image cap">
@@ -508,7 +517,7 @@
 
 
 <!-- SECCIÓN DE LOS POST MÁS RECIENTES 1-->
-    <section class="latest-posts"> 
+    <section class="latest-posts" id="latest-posts"> 
         <div class="container">
           <header> 
             <h2>¿Qué nos está dejando este 2020?</h2>
@@ -731,6 +740,107 @@
       </div>
     </div>
   </div>
+</section>
+
+
+ <!-- SECCIÓN DE BACKGROUND IMAGE -->
+   <!--  Podríamos quitar este container para que abarque toda la pantalla -->
+   <div class="container">
+    <section id="bckImageCool2" class="bckImageCool2">
+      <div class="container">
+        <div class="text-center">
+          <h3>Novedades</h3>
+          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a class="bckImageCool-btn" href="#">Descubre más</a>
+        </div>
+      </div>
+    </section>
+   </div>
+
+
+
+<!-- SECCIÓN DE LOS POST MÁS RECIENTES 3-->
+<section class="latest-posts" id="lastes-post-Esports"> 
+  <div class="container">
+    <header> 
+      <h2>Lo Último en el mundo de los E-sports</h2>
+      <p class="text-big">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </header>
+    <div class="row">
+      <div class="post col-md-4">
+        <div class="post-thumbnail"><a ><img src="images/phonegames.jpg" alt="..." class="img-fluid"></a></div>
+        <div class="post-details">
+          <div class="post-meta d-flex justify-content-between">
+            <div class="date">4 Feb | 2020</div>
+            <div class="category"><a>Devices</a></div>
+          </div><a href="#">
+            <h3 class="h4">Carlos"Frendas" representante de Movister Riders penalizado por usode programas de terceros en torneo CSGO</h3></a>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        </div>
+      </div>
+      <div class="post col-md-4">
+        <div class="post-thumbnail"><a><img src="images/boyVR.jpg" alt="..." class="img-fluid"></a></div>
+        <div class="post-details">
+          <div class="post-meta d-flex justify-content-between">
+            <div class="date">4 Feb | 2020</div>
+            <div class="category"><a>Technology</a></div>
+          </div><a href="#">
+            <h3 class="h4">G2 pierde sorpresivamente ante MAD LIONS en fase preeliminar de la LEC</h3></a>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        </div>
+      </div>
+      <div class="post col-md-4">
+        <div class="post-thumbnail"><a><img src="images/Xbox.jpg" alt="..." class="img-fluid"></a></div>
+        <div class="post-details">
+          <div class="post-meta d-flex justify-content-between">
+            <div class="date">4 Feb | 2020</div>
+            <div class="category"><a>Develop</a></div>
+          </div><a href="#">
+            <h3 class="h4">Vodafone Giants Campeon de la Super Liga Orange de España</h3></a>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="post col-md-4">
+        <div class="post-thumbnail"><a ><img src="images/phonegames.jpg" alt="..." class="img-fluid"></a></div>
+        <div class="post-details">
+          <div class="post-meta d-flex justify-content-between">
+            <div class="date">4 Feb | 2020</div>
+            <div class="category"><a>Devices</a></div>
+          </div><a href="#">
+            <h3 class="h4">FC Barcelona Presume su Equipo Top de Rocket League en redes sociales</h3></a>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        </div>
+      </div>
+      <div class="post col-md-4">
+        <div class="post-thumbnail"><a><img src="images/boyVR.jpg" alt="..." class="img-fluid"></a></div>
+        <div class="post-details">
+          <div class="post-meta d-flex justify-content-between">
+            <div class="date">4 Feb | 2020</div>
+            <div class="category"><a>Technology</a></div>
+          </div><a href="#">
+            <h3 class="h4">Team Heretics Ficha a Vorwenn como nuevo jugador para representarlos en Fornite</h3></a>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        </div>
+      </div>
+      <div class="post col-md-4">
+        <div class="post-thumbnail"><a><img src="images/Xbox.jpg" alt="..." class="img-fluid"></a></div>
+        <div class="post-details">
+          <div class="post-meta d-flex justify-content-between">
+            <div class="date">4 Feb | 2020</div>
+            <div class="category"><a>Develop</a></div>
+          </div><a href="#">
+            <h3 class="h4">Guia de como juegan los jugadores profesionales en League of Legends</h3></a>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <p></p>
+      <hr>
 </section>
 
 
