@@ -811,6 +811,64 @@
   }
 
 
+  /* -------------------------ARTICULO ESTILO DE JUEGOS----------------------------------*/
+.title-SobreJuego{
+  color: #fff;
+  font-size: 1.2em;
+  padding: 0.2em;
+}
+
+.div-title-SobreJuego{
+  border-radius: 0.2em;
+}
+
+.div-title-Juego{
+  font-size: 1.3em;
+  margin-bottom: 0.8em;
+}
+
+.div-list-Juegos li{
+  margin-left: 1.5em;
+  margin-top: 0.5em;
+}
+
+.div-title-Relacionado{
+  border-radius: 0.2em;
+  text-align: center;
+}
+
+.div-content-relacionados{
+  overflow-y: scroll;
+}
+
+.title-Relacionado{
+  color: #fff;
+  font-size: 1.2em;
+  padding: 0.4em;
+}
+
+.Content-JuegoRecomendado h2{
+  font-size: 1em;
+}
+
+.Content-JuegoRecomendado h3, p {
+  font-size: 0.8em;
+}
+
+.div-JuegosRecomendados{
+  margin-bottom: 1em;
+}
+
+.div-title-Multimedia{
+  color: #fff;
+  margin-top: 3em;
+  border-radius: 0.2em;
+}
+
+
+
+
+
   /* -------------------------SEGMENTO DE ESTILOS DE CADA INTEGRANTE----------------------------------*/
 
 
