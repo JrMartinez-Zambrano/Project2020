@@ -944,13 +944,31 @@
 
   .textParrafo{
     text-align: justify;
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .textNovedades{
     font-size: 15px;
   }
 
- 
+  #comments{
+  background-color :  #e7e9ec;
+  padding: 1%;
+  }
+
+  @media (max-width:450px){
+    .lead{
+      text-align: center;
+    }
+    .fechaPublicacion{
+      text-align: center;
+    }
+
+    .form-action {
+      text-align: center;
+    }
+
+  }
+
 
   /*----------------------------                          JUNNIOR ZAMBRANO                          ---------------------------------*/
