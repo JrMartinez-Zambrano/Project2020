@@ -818,6 +818,21 @@
   padding: 0.2em;
 }
 
+/* ambos nos permite hacer flexible el segmento de los juegos al momento de minimizar la pantalla*/
+/*
+#ambos{
+  display: flex;
+}
+
+@media (max-width:1000px){
+  #ambos{
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+*/
+
 .div-title-SobreJuego{
   border-radius: 0.2em;
 }
@@ -927,6 +942,15 @@
 
     /*-------------------------                           JUNNIOR   ZAMBRANO                           ---------------------------------*/
 
-      /* Aquí debe ir el css de dicho integrante, con el cmentario que especifique a que sección de su página pertenece */
+  .textParrafo{
+    text-align: justify;
+    font-size: 14px;
+  }
+
+  .textNovedades{
+    font-size: 15px;
+  }
+
+ 
 
   /*----------------------------                          JUNNIOR ZAMBRANO                          ---------------------------------*/
