@@ -569,6 +569,9 @@
     display: none;
   }
 
+
+
+
 /*  SEGMENTO DE BACKGROUND IMAGE */
 .bckImageCool {
     background: linear-gradient(rgba(2, 2, 2, 0.1), rgba(0, 0, 0, 0.5)), url("../images/artiom-vallat-H-qqp_Eqaww-unsplash.jpg") fixed center center;
@@ -818,6 +821,30 @@
   padding: 0.2em;
 }
 
+/* ambos nos permite hacer flexible el segmento de los juegos al momento de minimizar la pantalla*/
+
+#ambos{
+  display: flex;
+}
+
+#row_ambos{
+  display: flex;
+}
+
+@media (max-width:1000px){
+  #ambos{
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #row_ambos{
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+
+
 .div-title-SobreJuego{
   border-radius: 0.2em;
 }
@@ -927,6 +954,58 @@
 
     /*-------------------------                           JUNNIOR   ZAMBRANO                           ---------------------------------*/
 
-      /* Aquí debe ir el css de dicho integrante, con el cmentario que especifique a que sección de su página pertenece */
+  .textParrafo{
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .textNovedades{
+    font-size: 15px;
+  }
+
+  #comments{
+  background-color :  #e7e9ec;
+  padding: 1%;
+  }
+
+  @media (max-width:450px){
+    .lead{
+      text-align: center;
+    }
+    .fechaPublicacion{
+      text-align: center;
+    }
+
+    .form-action {
+      text-align: center;
+    }
+
+  }
+
+  .titulo_index{
+    font-size: 30px;
+    margin-top: 2%;
+    text-decoration: #112363;
+  }
+
+
+  #articuloJrPrototype{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+@media (min-width:900px){
+  #articuloJrPrototype{
+      flex-direction:row;
+  }
+}
+
+@media (max-width: 500px){
+  #imagencentrar{
+    padding-left: 9%;
+   }
+}
+
 
   /*----------------------------                          JUNNIOR ZAMBRANO                          ---------------------------------*/
