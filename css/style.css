@@ -892,6 +892,34 @@
   border-radius: 0.2em;
 }
 
+.div-Descripcion p{
+  font-size: 1em;
+}
+
+.div-boton{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+justify-content: center;
+}
+
+
+.div-dialog{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.div-dialog i{
+  font-size: 2em;
+  color: rgb(255, 152, 0);
+}
+
+.div-dialog p{
+  font-size: 1em;
+  margin-top: 0.5em;
+  text-align: center;
+}
 
 
 
