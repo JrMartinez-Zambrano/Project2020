@@ -19,6 +19,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="index.html">
  
+  <!--Font Awewsome-->
+  <script src="https://kit.fontawesome.com/f542c90983.js" crossorigin="anonymous"></script>
    <!-- ver https://kybarg.github.io/bootstrap-dropdown-hover/   -->
   <title>Proximos Juegos</title>
 </head>
@@ -85,8 +87,40 @@
             </div>
         
          </div>
-         <button type="button" class="btn-reservar" disabled=><a href="#">Reservar</a></button>
+         
+         <div class="div-boton">
+         <div class="container">
+           <br>
+         <a href="#ventanaReservar" class="btn btn-primary btn-lg" data-toggle="modal" >Reservar</a>
 
+         <!--Div para oscurecer la pantalla-->
+         <div class="modal fade" id="ventanaReservar">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <!--Header-->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Información</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        
+                      </div>
+
+                      <!--Conenido de la ventana-->
+                      <div class="div-dialog modal-body ">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <p>Lo siento, aun no se puede reservar este juego </p>
+                      </div>
+
+                      <!--Footer-->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-info" data-dismiss="modal">Cerrar</button>
+                      </div>
+                  </div>
+
+                </div>
+         </div>
+
+        </div>
+      </div>
       </div>
 
  
