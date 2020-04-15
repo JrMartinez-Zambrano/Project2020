@@ -273,6 +273,21 @@
   }
   
   /*  SEGMENTO DE CARDS */
+  #cards{
+    display: flex;
+  }
+
+  .card-deck{
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (min-width:2000px){
+    .card-deck{
+      flex-direction: row;
+    }
+  }
+
 .card-deck{
     margin-bottom: 3%;
     margin-top: 5%;
