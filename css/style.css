@@ -999,7 +999,19 @@ justify-content: center;
   /*----------------------------                          MIGUEL VALDEZ                          ---------------------------------*/
 
 
-
+  .twitter-tweet{
+    margin: 2em 15em;
+    
+  }
+ 
+  @media (max-width: 450px){
+    .twitter-tweet{
+      position: relative;
+      display: inline-block;
+      padding: 0 5px;
+      margin: 0px auto;
+    }
+  }
 
 
 
