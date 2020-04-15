@@ -1,5 +1,4 @@
 .body{
-    background-color: #213b52;
     font-family: 'Roboto', sans-serif;
 }
 /*  Margen del fondo del container  */
@@ -274,6 +273,21 @@
   }
   
   /*  SEGMENTO DE CARDS */
+  #cards{
+    display: flex;
+  }
+
+  .card-deck{
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (min-width:2000px){
+    .card-deck{
+      flex-direction: row;
+    }
+  }
+
 .card-deck{
     margin-bottom: 3%;
     margin-top: 5%;
@@ -748,9 +762,10 @@
   }
   
   .section-bg {
-    background: linear-gradient(180deg, #ffffff 0%, #fff 100%); 
-    margin-bottom: 3%;
+    background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);
+    margin-bottom: 1%;
   }
+
   
   .section-title {
     text-align: center;
@@ -1055,6 +1070,12 @@ justify-content: center;
     padding-left: 9%;
    }
 }
+
+
+#welcome{
+  font-size: 20px;
+}
+
 
 
   /*----------------------------                          JUNNIOR ZAMBRANO                          ---------------------------------*/
