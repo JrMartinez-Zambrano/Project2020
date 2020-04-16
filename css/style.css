@@ -937,29 +937,6 @@ justify-content: center;
 }
 
 
-
-
-  /* -------------------------SEGMENTO DE ESTILOS DE CADA INTEGRANTE----------------------------------*/
-
-
-
-  /*--------------------------                          LUIS RIVERA                          ---------------------------------*/
-
-  /* Aquí debe ir el css de dicho integrante, con el cmentario que especifique a que sección de su página pertenece */
-
-  /*-------------------------                          LUIS RIVERA                          ---------------------------------*/
-
-
-
-
-
-
-
-
- /* Aquí debe ir el css de dicho integrante, con el cmentario que especifique a que sección de su página pertenece */
-
-    /*--------------------------                          MARIO  ARGUETA                          ---------------------------------*/
-
     .contanedorm{ 
       display: block;
       padding: 20px;
@@ -983,21 +960,6 @@ justify-content: center;
     }
     
 
-  /*----------------------------                          MARIO  ARGUETA                           ---------------------------------*/
-
-
-
-
-
-
-   /* Aquí debe ir el css de dicho integrante, con el cmentario que especifique a que sección de su página pertenece */
-
-    /*--------------------------                          MIGUEL VALDEZ                          ---------------------------------*/
-
-      /* Aquí debe ir el css de dicho integrante, con el cmentario que especifique a que sección de su página pertenece */
-
-  /*----------------------------                          MIGUEL VALDEZ                          ---------------------------------*/
-
 
   .twitter-tweet{
     margin: 2em 15em;
@@ -1014,21 +976,6 @@ justify-content: center;
   }
 
 
-
-   /* Aquí debe ir el css de dicho integrante, con el cmentario que especifique a que sección de su página pertenece */
-
-    /*--------------------------                          OSCAR BENITEZ                          ---------------------------------*/
-
-      /* Aquí debe ir el css de dicho integrante, con el cmentario que especifique a que sección de su página pertenece */
-
-  /*----------------------------                          OSCAR BENITEZ                          ---------------------------------*/
-
-
-
-
-   /* Aquí debe ir el css de dicho integrante, con el cmentario que especifique a que sección de su página pertenece */
-
-    /*-------------------------                           JUNNIOR   ZAMBRANO                           ---------------------------------*/
 
   .textParrafo{
     text-align: justify;
@@ -1081,6 +1028,15 @@ justify-content: center;
   #imagencentrar{
     padding-left: 9%;
    }
+   #start{
+    text-align: center;
+    margin-top: 10px;
+  }
+ #electro{
+   text-align: center;
+   margin-right: 10%;
+ }
+
 }
 
 
@@ -1090,4 +1046,8 @@ justify-content: center;
 
 
 
-  /*----------------------------                          JUNNIOR ZAMBRANO                          ---------------------------------*/
+
+
+
+
+
